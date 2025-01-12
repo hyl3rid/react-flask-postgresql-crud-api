@@ -11,3 +11,5 @@ export DB_PASSWORD="newpassword"
 python3 -m venv venv
 source venv/bin/activate
 python3 init_db.py
+cd frontend-api
+npm install
