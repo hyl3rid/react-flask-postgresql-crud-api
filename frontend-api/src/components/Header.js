@@ -13,9 +13,20 @@ function Header(props) {
   }
 
   return (
-    <header>
-      <button onClick={logMeOut}>Logout</button>
-    </header>
+    <>
+      <header>
+        <a href='/'>Home</a>
+        <a href='/manage'>Manage</a>
+        <a href='/add'>Add</a>
+        <a href='/profile'>Profile</a>
+        <button onClick={logMeOut}>Logout</button>
+      </header>
+      <style>{`
+      a {
+        padding-right: 10px; 
+      }
+      `}</style>
+    </>
   );
 }
 

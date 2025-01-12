@@ -18,7 +18,7 @@ function App() {
         <Login setToken={setToken} />
       ) : (
         <Routes>
-          {/* <Route index element={<Home /> /> */}
+          <Route index element={<Home />} />
           <Route path='add' element={<Add />} />
           <Route path='manage' element={<Manage />} />
           <Route
@@ -28,7 +28,6 @@ function App() {
           ></Route>
         </Routes>
       )}
-      <Home />
     </BrowserRouter>
   );
 }
