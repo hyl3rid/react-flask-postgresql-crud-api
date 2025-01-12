@@ -46,6 +46,7 @@ function Login(props) {
   return (
     <div>
       <h1>Login</h1>
+      <p>Username: test, Password: test</p>
       <form action=''>
         <input
           onChange={handleChange}
